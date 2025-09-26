@@ -201,7 +201,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .top-nav {
         flex-direction: column;
         align-items: flex-start;
@@ -266,7 +266,14 @@
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1441px) {
+
+    html, body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
     .top-nav {
         flex-direction: column;
         align-items: center;
@@ -333,9 +340,14 @@
     }
 
     .cards-container {
-        gap: 30px;
-        justify-content: center;
-    }
+    margin-left: auto;
+    margin-right: auto;
+
+        }
+        .footer {
+            flex-wrap: wrap;
+            gap: 300px; 
+        }
 
     .card {
         width: 300px;
